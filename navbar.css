@@ -1,0 +1,45 @@
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-color: white;
+}
+
+.Link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4285f4;
+  font-family: Arial, sans-serif;
+  gap: 20px;
+}
+
+.search-box {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px 0 0 24px;
+  outline: none;
+  width: 300px;
+  background-color: #f1f3f4;
+}
+
+.icon-button {
+  padding: 8px 12px;
+  background-color: #f1f3f4;
+  border: 1px solid #dfe1e5;
+  border-left: none;
+  border-radius: 0 24px 24px 0;
+  cursor: pointer;
+}
+
+.icon-img {
+  width: 20px;
+  height: 20px;
+}
